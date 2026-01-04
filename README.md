@@ -2,8 +2,6 @@
 
 An advanced, AI-powered system for indexing, searching, and analyzing industrial documentation (PDFs, Word Docs, Technical Schematics). Built with a modern React frontend and a robust Python backend, offering flexible **Browser-Only** or **Client-Server** deployment modes.
 
-![Project Banner](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2070)
-
 ## 🌟 Features
 
 - **📄 Universal File Support**: 

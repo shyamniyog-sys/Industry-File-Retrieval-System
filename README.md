@@ -2,30 +2,30 @@
 
 An advanced, AI-powered system for indexing, searching, and analyzing industrial documentation (PDFs, Word Docs, Technical Schematics). Built with a modern React frontend and a robust Python backend, offering flexible **Browser-Only** or **Client-Server** deployment modes.
 
-## 🌟 Features
+##  Features
 
 - **📄 Universal File Support**: 
   - Extracts text from **PDFs** (technical manuals)
   - **DOCX** (specifications)
   - **Images** (OCR for schematics/diagrams using Tesseract)
 
-- **🧠 Semantic Search**:
+- ** Semantic Search**:
   - Goes beyond keyword matching. Understands the *meaning* of your query.
   - Powered by the **all-MiniLM-L6-v2** Sentence Transformer model.
   - Vector similarity search (Cosine Similarity).
 
-- **🏷️ Automated Entity Extraction**:
+- ** Automated Entity Extraction**:
   - Automatically identifies and tags:
     - **Part Numbers** (e.g., `BLT-M8-200`)
     - **Measurements** (e.g., `200 mm`, `45.2 g`)
     - **Prices** & **Dates**
     - **Specifications** (e.g., `800 MPa`)
 
-- **🔁 Hybrid Architecture**:
+- ** Hybrid Architecture**:
   - **Local-Only Mode**: Runs entirely in the browser using WebAssembly & Transformers.js. No server required.
   - **Python Backend Mode**: Powerful FastAPI server for heavy-duty processing and batch operations.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
@@ -42,7 +42,7 @@ An advanced, AI-powered system for indexing, searching, and analyzing industrial
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -50,7 +50,7 @@ An advanced, AI-powered system for indexing, searching, and analyzing industrial
 - **Python**: v3.10+ (for backend)
 - **Tesseract OCR**: (Optional, for image processing)
 
-### 1️⃣ Frontend Setup (Required)
+###  Frontend Setup (Required)
 
 The frontend provides the user interface and can access the backend or run in standalone mode.
 
@@ -68,7 +68,7 @@ npm run dev
 
 The app will launch at `http://localhost:5173`.
 
-### 2️⃣ Backend Setup (Optional)
+### Backend Setup (Optional)
 
 For more robust processing, run the Python backend.
 
@@ -91,7 +91,7 @@ The server will be available at `http://localhost:8000`.
 
 ---
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Mode 1: Local-Only (Browser)
 By default, the application runs in **Local-Only Mode**.
@@ -108,7 +108,7 @@ To switch to the Python backend:
 2. Use the application as normal. Note: The frontend integration requires pointing configuration to `http://localhost:8000`.
    *(UI toggle coming soon - currently defaults to local processing logic)*
 
-## 🔍 Architecture Overview
+## Architecture Overview
 
 ```mermaid
 graph TD
@@ -131,7 +131,7 @@ graph TD
     I --> A
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -139,6 +139,6 @@ graph TD
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
